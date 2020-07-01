@@ -1,0 +1,15 @@
+runtime: go112
+
+default_expiration: "1h"
+
+env_variables:
+  DATASTORE_PROJECT_ID: "saebr-demo-12345"
+
+handlers:
+- url: /(favicon.ico|me.png|robots.txt)$
+  static_files: \1
+  upload: favicon.ico|me.png|robots.txt
+
+- url: /.*
+  script: auto
+  secure: always

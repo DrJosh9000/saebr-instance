@@ -1,0 +1,16 @@
+indexes:
+ - kind: Page 
+   ancestor: yes 
+   properties: 
+   - name: Blog 
+   - name: Published 
+   - name: Created 
+     direction: desc 
+   - name: LastModified
+   - name: Title
+ - kind: Page
+   ancestor: yes
+   properties:
+   - name: Published
+   - name: Created
+   - name: LastModified
