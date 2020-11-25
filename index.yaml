@@ -14,3 +14,10 @@ indexes:
    - name: Published
    - name: Created
    - name: LastModified
+ - kind: Page 
+   ancestor: yes 
+   properties: 
+   - name: Blog 
+   - name: Published 
+   - name: Created 
+     direction: desc 
