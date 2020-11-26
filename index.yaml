@@ -21,3 +21,9 @@ indexes:
    - name: Published 
    - name: Created 
      direction: desc 
+ - kind: Page 
+   ancestor: yes 
+   properties: 
+   - name: Blog 
+   - name: Published 
+   - name: Created 
