@@ -56,6 +56,8 @@ github.com/DrJosh9000/saebr v0.0.0-20201125042120-3f23f6acb110 h1:kFgozWkDL/8TDn
 github.com/DrJosh9000/saebr v0.0.0-20201125042120-3f23f6acb110/go.mod h1:rnjPbG9qYZSuWEK0G/G3BzRNLZ6bI/IOxUQttN8Dsfw=
 github.com/DrJosh9000/saebr v0.0.0-20201126041516-0960531f8207 h1:g3gaTULZSRhMnjUerNPhfF59dGKrfEUAdJ8jUoxC0U4=
 github.com/DrJosh9000/saebr v0.0.0-20201126041516-0960531f8207/go.mod h1:rnjPbG9qYZSuWEK0G/G3BzRNLZ6bI/IOxUQttN8Dsfw=
+github.com/DrJosh9000/saebr v0.0.0-20201126052718-7d0f7579ff49 h1:h9nhHRZsHeS8y8uIzJb83qjiDcCAMm6/pDINKIlCWA8=
+github.com/DrJosh9000/saebr v0.0.0-20201126052718-7d0f7579ff49/go.mod h1:rnjPbG9qYZSuWEK0G/G3BzRNLZ6bI/IOxUQttN8Dsfw=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/chzyer/logex v1.1.10/go.mod h1:+Ywpsq7O8HXn0nuIou7OrIPyXbp3wmkHB+jjWRnGsAI=
 github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e/go.mod h1:nSuG5e5PlCu98SY8svDHJxuZscDgtXS6KTTbou5AhLI=
