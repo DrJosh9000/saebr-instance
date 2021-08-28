@@ -53,15 +53,16 @@ To create a page (e.g. at `/somepage`), just browse to `/edit/somepage`.
 You can also manually craft `Page` entities (as child entities of the 
 corresponding `Site`), if you dare.
 
- | `Page` field | Meaning                                                                                |
- | ------------ | -------------------------------------------------------------------------------------- |
- | `Key`        | URL path of the page (minus the leading slash).                                        |
- | `Title`      | Page title.                                                                            |
- | `Published`  | Makes the page publicly accessible.                                                    |
- | `Blog`       | Makes the page appear in `/index`, and also on `/` if the most recently created.       |
- | `Category`   | A string to use as category. (NB: category indexes and feeds are not yet implemented). |
- | `Tags`       | A set of strings to use as tags. (NB: tag indexes and feeds are not yet implemented).  |
- | `Contents`   | Markdown-formatted content to display.                                                 |
+ | `Page` field   | Meaning                                                                                |
+ | -------------- | -------------------------------------------------------------------------------------- |
+ | `Key`          | URL path of the page (minus the leading slash).                                        |
+ | `Title`        | Page title.                                                                            |
+ | `Published`    | Makes the page publicly accessible.                                                    |
+ | `Blog`         | Makes the page appear in `/index`, and also on `/` if the most recently created.       |
+ | `Prev`, `Next` | Previous and next "blog" pages, chronologically (automatically linked when saved).     |
+ | `Category`     | A string to use as category. (NB: category indexes and feeds are not yet implemented). |
+ | `Tags`         | A set of strings to use as tags. (NB: tag indexes and feeds are not yet implemented).  |
+ | `Contents`     | Markdown-formatted content to display.                                                 |
 
 In order to preview a page you must first save it. However, it doesn't need to be
 Published in order to preview it.
