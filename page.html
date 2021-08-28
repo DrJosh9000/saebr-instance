@@ -41,17 +41,19 @@
     </ul>
     <article class="section">
         <div class="container">
-            <p>{{if .Published }}
+            <p>{{if .Blog}}
+                {{if .Prev}}<a href="/{{.Prev.Name}}">Previous post</a>{{end}} | {{if .Next}}<a href="/{{.Next.Name}}">Next post</a>{{end}}
+            {{end}}{{if .Published }}
                 <a href="https://your-domain-name.dev/{{.Key.Name}}" class="right">
                     Permalink <i class="material-icons right">link</i>
                 </a>
             {{end}}
-            {{if not .Created.IsZero}}
-                Published {{.Created.Format "2 January 2006"}}{{if .Edited}}, edited {{.LastModified.Format "2 January 2006"}}{{end}}
-            {{end}}
             </p>
+            {{if not .Created.IsZero}}
+            <p>Published {{.Created.Format "2 January 2006"}}{{if .Edited}}, edited {{.LastModified.Format "2 January 2006"}}{{end}}</p>
+            {{end}}
             <h1>{{.Title}}</h1>
-            <div style="max-width:66ex">
+            <div style="max-width:80ex">
                 {{.ContentsHTML}}
             </div>
         </div>
