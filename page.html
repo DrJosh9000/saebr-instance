@@ -54,7 +54,7 @@
             {{end}}
             <h1>{{.Title}}</h1>
             <div style="max-width:80ex">
-                {{.ContentsHTML}}
+                {{.Contents | blackfridayRun | materialiseULTags}}
             </div>
         </div>
     </article>
